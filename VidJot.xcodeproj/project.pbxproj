@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41F2733323C82FA2003E981B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2733223C82FA2003E981B /* AppDelegate.swift */; };
+		41F2733523C82FA2003E981B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2733423C82FA2003E981B /* ViewController.swift */; };
+		41F2733823C82FA2003E981B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F2733623C82FA2003E981B /* Main.storyboard */; };
+		41F2733B23C82FA2003E981B /* VidJot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41F2733923C82FA2003E981B /* VidJot.xcdatamodeld */; };
+		41F2733D23C82FA3003E981B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F2733C23C82FA3003E981B /* Assets.xcassets */; };
+		41F2734023C82FA3003E981B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F2733E23C82FA3003E981B /* LaunchScreen.storyboard */; };
+		41F2734B23C82FA4003E981B /* VidJotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2734A23C82FA4003E981B /* VidJotTests.swift */; };
+		41F2735623C82FA4003E981B /* VidJotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2735523C82FA4003E981B /* VidJotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41F2734723C82FA4003E981B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F2732723C82FA2003E981B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F2732E23C82FA2003E981B;
+			remoteInfo = VidJot;
+		};
+		41F2735223C82FA4003E981B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F2732723C82FA2003E981B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F2732E23C82FA2003E981B;
+			remoteInfo = VidJot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41F2732F23C82FA2003E981B /* VidJot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidJot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F2733223C82FA2003E981B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41F2733423C82FA2003E981B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41F2733723C82FA2003E981B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41F2733A23C82FA2003E981B /* VidJot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VidJot.xcdatamodel; sourceTree = "<group>"; };
+		41F2733C23C82FA3003E981B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41F2733F23C82FA3003E981B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41F2734123C82FA3003E981B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F2734623C82FA4003E981B /* VidJotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidJotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F2734A23C82FA4003E981B /* VidJotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidJotTests.swift; sourceTree = "<group>"; };
+		41F2734C23C82FA4003E981B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F2735123C82FA4003E981B /* VidJotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidJotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F2735523C82FA4003E981B /* VidJotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidJotUITests.swift; sourceTree = "<group>"; };
+		41F2735723C82FA4003E981B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41F2732C23C82FA2003E981B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F2734323C82FA4003E981B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F2734E23C82FA4003E981B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F2732623C82FA2003E981B = {
+			isa = PBXGroup;
+			children = (
+				41F2733123C82FA2003E981B /* VidJot */,
+				41F2734923C82FA4003E981B /* VidJotTests */,
+				41F2735423C82FA4003E981B /* VidJotUITests */,
+				41F2733023C82FA2003E981B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41F2733023C82FA2003E981B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41F2732F23C82FA2003E981B /* VidJot.app */,
+				41F2734623C82FA4003E981B /* VidJotTests.xctest */,
+				41F2735123C82FA4003E981B /* VidJotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41F2733123C82FA2003E981B /* VidJot */ = {
+			isa = PBXGroup;
+			children = (
+				41F2733223C82FA2003E981B /* AppDelegate.swift */,
+				41F2733423C82FA2003E981B /* ViewController.swift */,
+				41F2733623C82FA2003E981B /* Main.storyboard */,
+				41F2733C23C82FA3003E981B /* Assets.xcassets */,
+				41F2733E23C82FA3003E981B /* LaunchScreen.storyboard */,
+				41F2734123C82FA3003E981B /* Info.plist */,
+				41F2733923C82FA2003E981B /* VidJot.xcdatamodeld */,
+			);
+			path = VidJot;
+			sourceTree = "<group>";
+		};
+		41F2734923C82FA4003E981B /* VidJotTests */ = {
+			isa = PBXGroup;
+			children = (
+				41F2734A23C82FA4003E981B /* VidJotTests.swift */,
+				41F2734C23C82FA4003E981B /* Info.plist */,
+			);
+			path = VidJotTests;
+			sourceTree = "<group>";
+		};
+		41F2735423C82FA4003E981B /* VidJotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41F2735523C82FA4003E981B /* VidJotUITests.swift */,
+				41F2735723C82FA4003E981B /* Info.plist */,
+			);
+			path = VidJotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41F2732E23C82FA2003E981B /* VidJot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F2735A23C82FA4003E981B /* Build configuration list for PBXNativeTarget "VidJot" */;
+			buildPhases = (
+				41F2732B23C82FA2003E981B /* Sources */,
+				41F2732C23C82FA2003E981B /* Frameworks */,
+				41F2732D23C82FA2003E981B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VidJot;
+			productName = VidJot;
+			productReference = 41F2732F23C82FA2003E981B /* VidJot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41F2734523C82FA4003E981B /* VidJotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F2735D23C82FA4003E981B /* Build configuration list for PBXNativeTarget "VidJotTests" */;
+			buildPhases = (
+				41F2734223C82FA4003E981B /* Sources */,
+				41F2734323C82FA4003E981B /* Frameworks */,
+				41F2734423C82FA4003E981B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F2734823C82FA4003E981B /* PBXTargetDependency */,
+			);
+			name = VidJotTests;
+			productName = VidJotTests;
+			productReference = 41F2734623C82FA4003E981B /* VidJotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41F2735023C82FA4003E981B /* VidJotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F2736023C82FA4003E981B /* Build configuration list for PBXNativeTarget "VidJotUITests" */;
+			buildPhases = (
+				41F2734D23C82FA4003E981B /* Sources */,
+				41F2734E23C82FA4003E981B /* Frameworks */,
+				41F2734F23C82FA4003E981B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F2735323C82FA4003E981B /* PBXTargetDependency */,
+			);
+			name = VidJotUITests;
+			productName = VidJotUITests;
+			productReference = 41F2735123C82FA4003E981B /* VidJotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41F2732723C82FA2003E981B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Daniel Palacio";
+				TargetAttributes = {
+					41F2732E23C82FA2003E981B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					41F2734523C82FA4003E981B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 41F2732E23C82FA2003E981B;
+					};
+					41F2735023C82FA4003E981B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 41F2732E23C82FA2003E981B;
+					};
+				};
+			};
+			buildConfigurationList = 41F2732A23C82FA2003E981B /* Build configuration list for PBXProject "VidJot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41F2732623C82FA2003E981B;
+			productRefGroup = 41F2733023C82FA2003E981B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41F2732E23C82FA2003E981B /* VidJot */,
+				41F2734523C82FA4003E981B /* VidJotTests */,
+				41F2735023C82FA4003E981B /* VidJotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41F2732D23C82FA2003E981B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F2734023C82FA3003E981B /* LaunchScreen.storyboard in Resources */,
+				41F2733D23C82FA3003E981B /* Assets.xcassets in Resources */,
+				41F2733823C82FA2003E981B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F2734423C82FA4003E981B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F2734F23C82FA4003E981B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41F2732B23C82FA2003E981B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F2733523C82FA2003E981B /* ViewController.swift in Sources */,
+				41F2733B23C82FA2003E981B /* VidJot.xcdatamodeld in Sources */,
+				41F2733323C82FA2003E981B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F2734223C82FA4003E981B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F2734B23C82FA4003E981B /* VidJotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F2734D23C82FA4003E981B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F2735623C82FA4003E981B /* VidJotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41F2734823C82FA4003E981B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F2732E23C82FA2003E981B /* VidJot */;
+			targetProxy = 41F2734723C82FA4003E981B /* PBXContainerItemProxy */;
+		};
+		41F2735323C82FA4003E981B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F2732E23C82FA2003E981B /* VidJot */;
+			targetProxy = 41F2735223C82FA4003E981B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41F2733623C82FA2003E981B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F2733723C82FA2003E981B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41F2733E23C82FA3003E981B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F2733F23C82FA3003E981B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41F2735823C82FA4003E981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41F2735923C82FA4003E981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41F2735B23C82FA4003E981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8L7854ZBS;
+				INFOPLIST_FILE = VidJot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dpalacio.project.VidJot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41F2735C23C82FA4003E981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8L7854ZBS;
+				INFOPLIST_FILE = VidJot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dpalacio.project.VidJot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41F2735E23C82FA4003E981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8L7854ZBS;
+				INFOPLIST_FILE = VidJotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dpalacio.project.VidJotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VidJot.app/VidJot";
+			};
+			name = Debug;
+		};
+		41F2735F23C82FA4003E981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8L7854ZBS;
+				INFOPLIST_FILE = VidJotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dpalacio.project.VidJotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VidJot.app/VidJot";
+			};
+			name = Release;
+		};
+		41F2736123C82FA4003E981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8L7854ZBS;
+				INFOPLIST_FILE = VidJotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dpalacio.project.VidJotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VidJot;
+			};
+			name = Debug;
+		};
+		41F2736223C82FA4003E981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8L7854ZBS;
+				INFOPLIST_FILE = VidJotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dpalacio.project.VidJotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VidJot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F2732A23C82FA2003E981B /* Build configuration list for PBXProject "VidJot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F2735823C82FA4003E981B /* Debug */,
+				41F2735923C82FA4003E981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F2735A23C82FA4003E981B /* Build configuration list for PBXNativeTarget "VidJot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F2735B23C82FA4003E981B /* Debug */,
+				41F2735C23C82FA4003E981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F2735D23C82FA4003E981B /* Build configuration list for PBXNativeTarget "VidJotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F2735E23C82FA4003E981B /* Debug */,
+				41F2735F23C82FA4003E981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F2736023C82FA4003E981B /* Build configuration list for PBXNativeTarget "VidJotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F2736123C82FA4003E981B /* Debug */,
+				41F2736223C82FA4003E981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41F2733923C82FA2003E981B /* VidJot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41F2733A23C82FA2003E981B /* VidJot.xcdatamodel */,
+			);
+			currentVersion = 41F2733A23C82FA2003E981B /* VidJot.xcdatamodel */;
+			path = VidJot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41F2732723C82FA2003E981B /* Project object */;
+}

@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4105C8C823CC4C0A0085692C /* RegisterInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105C8C723CC4C0A0085692C /* RegisterInputView.swift */; };
+		41E7A8ED23C9DB2F00B93729 /* NewIdeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E7A8EC23C9DB2F00B93729 /* NewIdeaViewController.swift */; };
+		41E7A8EF23C9DCC700B93729 /* EditablePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E7A8EE23C9DCC700B93729 /* EditablePostView.swift */; };
+		41E7A8F123CA526700B93729 /* KeyChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E7A8F023CA526700B93729 /* KeyChainHelper.swift */; };
+		41E7A8F323CBF52A00B93729 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E7A8F223CBF52A00B93729 /* RegisterViewController.swift */; };
 		41F2733323C82FA2003E981B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2733223C82FA2003E981B /* AppDelegate.swift */; };
-		41F2733523C82FA2003E981B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2733423C82FA2003E981B /* ViewController.swift */; };
-		41F2733823C82FA2003E981B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F2733623C82FA2003E981B /* Main.storyboard */; };
 		41F2733B23C82FA2003E981B /* VidJot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41F2733923C82FA2003E981B /* VidJot.xcdatamodeld */; };
 		41F2733D23C82FA3003E981B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F2733C23C82FA3003E981B /* Assets.xcassets */; };
 		41F2734023C82FA3003E981B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F2733E23C82FA3003E981B /* LaunchScreen.storyboard */; };
 		41F2734B23C82FA4003E981B /* VidJotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2734A23C82FA4003E981B /* VidJotTests.swift */; };
 		41F2735623C82FA4003E981B /* VidJotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2735523C82FA4003E981B /* VidJotUITests.swift */; };
+		41F2736423C95D35003E981B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2736323C95D35003E981B /* LoginViewController.swift */; };
+		41F2736923C95EBA003E981B /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2736823C95EBA003E981B /* NavBar.swift */; };
+		41F2736B23C96025003E981B /* IdeasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2736A23C96025003E981B /* IdeasView.swift */; };
+		41F2736F23C96443003E981B /* IdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2736E23C96443003E981B /* IdeaCell.swift */; };
+		41F2737123C965AF003E981B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2737023C965AF003E981B /* MainViewController.swift */; };
+		41F2737623C967D0003E981B /* VidJotApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2737523C967D0003E981B /* VidJotApi.swift */; };
+		41F2737823C96974003E981B /* LoginInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2737723C96974003E981B /* LoginInputView.swift */; };
+		41F2737A23C995B9003E981B /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2737923C995B9003E981B /* UserSession.swift */; };
+		41F2737C23C9BDDA003E981B /* Ideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2737B23C9BDDA003E981B /* Ideas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4105C8C723CC4C0A0085692C /* RegisterInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInputView.swift; sourceTree = "<group>"; };
+		41E7A8EC23C9DB2F00B93729 /* NewIdeaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIdeaViewController.swift; sourceTree = "<group>"; };
+		41E7A8EE23C9DCC700B93729 /* EditablePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditablePostView.swift; sourceTree = "<group>"; };
+		41E7A8F023CA526700B93729 /* KeyChainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainHelper.swift; sourceTree = "<group>"; };
+		41E7A8F223CBF52A00B93729 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		41F2732F23C82FA2003E981B /* VidJot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidJot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F2733223C82FA2003E981B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41F2733423C82FA2003E981B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41F2733723C82FA2003E981B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41F2733A23C82FA2003E981B /* VidJot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VidJot.xcdatamodel; sourceTree = "<group>"; };
 		41F2733C23C82FA3003E981B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F2733F23C82FA3003E981B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,15 @@
 		41F2735123C82FA4003E981B /* VidJotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidJotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F2735523C82FA4003E981B /* VidJotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidJotUITests.swift; sourceTree = "<group>"; };
 		41F2735723C82FA4003E981B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F2736323C95D35003E981B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		41F2736823C95EBA003E981B /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		41F2736A23C96025003E981B /* IdeasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeasView.swift; sourceTree = "<group>"; };
+		41F2736E23C96443003E981B /* IdeaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCell.swift; sourceTree = "<group>"; };
+		41F2737023C965AF003E981B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		41F2737523C967D0003E981B /* VidJotApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidJotApi.swift; sourceTree = "<group>"; };
+		41F2737723C96974003E981B /* LoginInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputView.swift; sourceTree = "<group>"; };
+		41F2737923C995B9003E981B /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		41F2737B23C9BDDA003E981B /* Ideas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +123,11 @@
 		41F2733123C82FA2003E981B /* VidJot */ = {
 			isa = PBXGroup;
 			children = (
+				41F2737423C967BB003E981B /* ServiceWorkers */,
+				41F2736723C95D4F003E981B /* Models */,
+				41F2736623C95D4A003E981B /* Views */,
+				41F2736523C95D3F003E981B /* ViewControllers */,
 				41F2733223C82FA2003E981B /* AppDelegate.swift */,
-				41F2733423C82FA2003E981B /* ViewController.swift */,
-				41F2733623C82FA2003E981B /* Main.storyboard */,
 				41F2733C23C82FA3003E981B /* Assets.xcassets */,
 				41F2733E23C82FA3003E981B /* LaunchScreen.storyboard */,
 				41F2734123C82FA3003E981B /* Info.plist */,
@@ -126,6 +152,48 @@
 				41F2735723C82FA4003E981B /* Info.plist */,
 			);
 			path = VidJotUITests;
+			sourceTree = "<group>";
+		};
+		41F2736523C95D3F003E981B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41F2736323C95D35003E981B /* LoginViewController.swift */,
+				41F2737023C965AF003E981B /* MainViewController.swift */,
+				41E7A8EC23C9DB2F00B93729 /* NewIdeaViewController.swift */,
+				41E7A8F223CBF52A00B93729 /* RegisterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		41F2736623C95D4A003E981B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41F2736823C95EBA003E981B /* NavBar.swift */,
+				41F2736A23C96025003E981B /* IdeasView.swift */,
+				41F2736E23C96443003E981B /* IdeaCell.swift */,
+				41F2737723C96974003E981B /* LoginInputView.swift */,
+				41E7A8EE23C9DCC700B93729 /* EditablePostView.swift */,
+				4105C8C723CC4C0A0085692C /* RegisterInputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41F2736723C95D4F003E981B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41F2737923C995B9003E981B /* UserSession.swift */,
+				41F2737B23C9BDDA003E981B /* Ideas.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41F2737423C967BB003E981B /* ServiceWorkers */ = {
+			isa = PBXGroup;
+			children = (
+				41E7A8F023CA526700B93729 /* KeyChainHelper.swift */,
+				41F2737523C967D0003E981B /* VidJotApi.swift */,
+			);
+			path = ServiceWorkers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +302,6 @@
 			files = (
 				41F2734023C82FA3003E981B /* LaunchScreen.storyboard in Resources */,
 				41F2733D23C82FA3003E981B /* Assets.xcassets in Resources */,
-				41F2733823C82FA2003E981B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +326,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F2733523C82FA2003E981B /* ViewController.swift in Sources */,
+				41F2737123C965AF003E981B /* MainViewController.swift in Sources */,
+				41F2737A23C995B9003E981B /* UserSession.swift in Sources */,
+				4105C8C823CC4C0A0085692C /* RegisterInputView.swift in Sources */,
+				41F2736423C95D35003E981B /* LoginViewController.swift in Sources */,
+				41F2736B23C96025003E981B /* IdeasView.swift in Sources */,
+				41F2736F23C96443003E981B /* IdeaCell.swift in Sources */,
+				41E7A8F123CA526700B93729 /* KeyChainHelper.swift in Sources */,
+				41E7A8F323CBF52A00B93729 /* RegisterViewController.swift in Sources */,
+				41F2737623C967D0003E981B /* VidJotApi.swift in Sources */,
+				41F2736923C95EBA003E981B /* NavBar.swift in Sources */,
+				41E7A8EF23C9DCC700B93729 /* EditablePostView.swift in Sources */,
 				41F2733B23C82FA2003E981B /* VidJot.xcdatamodeld in Sources */,
 				41F2733323C82FA2003E981B /* AppDelegate.swift in Sources */,
+				41F2737823C96974003E981B /* LoginInputView.swift in Sources */,
+				41E7A8ED23C9DB2F00B93729 /* NewIdeaViewController.swift in Sources */,
+				41F2737C23C9BDDA003E981B /* Ideas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		41F2733623C82FA2003E981B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41F2733723C82FA2003E981B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41F2733E23C82FA3003E981B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

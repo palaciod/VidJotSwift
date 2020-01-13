@@ -16,7 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame:  UIScreen.main.bounds)
+        window?.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.787992936, alpha: 1)
+        let login = LoginViewController()
+        let navigator = UINavigationController(rootViewController: login)
+        navigator.setNavigationBarHidden(true, animated: false)
+        window?.rootViewController = navigator
+        window?.makeKeyAndVisible()
         return true
     }
 

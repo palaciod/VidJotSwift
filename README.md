@@ -30,3 +30,18 @@ VidJot helps you jot down video ideas when there are no writing utensils in sigh
 
 
 #### Below are some screenshots of the app
+
+
+<img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 16.56.25.png"
+    alt="home"
+    style="float: left; margin-right: 10px;"
+    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-10 at 20.17.24.png"
+    alt="home"
+    style="float: left; margin-right:10px;"
+    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 16.58.27.png"
+    alt="home"
+    style="float: left; margin-right:10px;"
+    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 16.58.19.png"
+    alt="home"
+    style="float: left; margin-right:10px;"
+    width="200"/>
